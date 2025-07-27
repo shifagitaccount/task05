@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+.container {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: #ffcc00;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
