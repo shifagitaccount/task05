@@ -1,48 +1,66 @@
-img {
-    width: 100%;
-    max-width: 400px;
-    object-fit: cover;
-    vertical-align: middle;
-    
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
 }
 
-.wrapper {
-    padding: 0 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5rem;
-
-}
-.intro {
-    flex: 1;
-}
-body{
-    background-color: rgb(111, 19, 154);
-}
-h1
-{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-img{border: 10px;}
-img{
-    border: double red;
-    border-radius: 50%;
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  position: sticky;
+  top: 0;
 }
 
-#paral{
-    text-align: center;
-    color:red;
-}
-.center{
-    text-align: center;
-    color:rgb(68, 0, 255);
-}
-h1::first-line{
-    color:rgba(5, 11, 23, 0.372)
-    
-}
-p ::first-line{
-color:rgb(107, 193, 9);
-
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #FFD700;
+}
+
+.home {
+  background: url('images/bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.destinations {
+  background: url('images/mountain.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.contact {
+  background: url('images/city.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  margin: 100px auto;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.content img {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
